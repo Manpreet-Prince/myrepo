@@ -85,7 +85,7 @@ let customerShippingObj = PBCustomerShipping.init(customerShippingAddress1:     
 ### Product
 
 ```
-let productObj = PBProduct.init(amount:         (NumberFormatter().number(from: (amountTF?.text)!)?.doubleValue)!,
+let productObj = PBProduct.init(amount:         2625.0,
                                 currency:       "CAD",
                                 description:    "PaymentGatewayTesting - #4682855809085",
                                 invoice:        "#4682855809085",
